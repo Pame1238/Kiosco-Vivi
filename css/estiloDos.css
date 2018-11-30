@@ -1,0 +1,67 @@
+body{background:url("fondobdd.jpg")#FF9000}
+
+h1{
+  color:#AAA173;
+  text-align: center;
+  font-family:icon;
+}
+.back-btn{
+  text-align: right;
+}
+.log-btn{
+  background:#0AC986;
+  display:inline-block;
+  font-size:16px;
+  height:50px;
+  color:#fff;
+  text-decoration:none;
+  border:none;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+}
+
+#out {
+	float: right;
+}
+
+img {
+    margin-right: 45%;
+    margin-left: 45%;
+    width: 10%;
+}
+ul{
+  padding-left: 0px;
+	list-style: none;
+}
+#menu{
+	font-family: Helvetica;
+  width: 600px;
+  margin:0 auto;
+}
+#menu li>a{
+  background-color: #0AC986;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#menu>li{
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+.log-btn:hover{
+  cursor: pointer;
+  color: #000;
+  background-color: #eaeaea;
+}
